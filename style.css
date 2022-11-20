@@ -142,3 +142,17 @@ ul li a:hover {
         opacity: 2
     }
 }
+
+
+.review {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flax {
+    width: 40%;
+}
+
+.flax img {
+    width: 95%;
+}
