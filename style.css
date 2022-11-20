@@ -13,14 +13,13 @@ body {
     padding-right: 100px;
 }
 
-
-ul li {
+.navbar ul li {
     list-style: none;
     display: inline;
 
 }
 
-ul li a {
+.navbar ul li a {
     text-decoration: none;
     display: inline-block;
     padding: 10px 30px;
@@ -28,7 +27,7 @@ ul li a {
     border-radius: 4px;
 }
 
-ul li a:hover {
+.navbar ul li a:hover {
     text-decoration: none;
     display: inline-block;
     padding: 10px 30px;
