@@ -155,3 +155,74 @@ body {
 .flax img {
     width: 95%;
 }
+
+.flax h1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.flax h3,
+.flax h2 {
+    font-size: 20px;
+    color: rgb(214, 169, 115);
+}
+
+.flax p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.flax li {
+    font-size: 20px;
+}
+
+/* cards */
+
+
+.card-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+}
+
+.price {
+    font-size: 24px;
+    line-height: 100%;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.card-description {
+    font-weight: bold;
+    font-size: 14px;
+    color: #787885;
+}
+
+.card-container {
+    margin: 100px 150px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    justify-items: center;
+}
+
+.card {
+    width: 329px;
+    border-radius: 3px;
+    padding-top: 17px;
+    padding-left: 24px;
+    transition: 1s;
+    box-shadow: 1px 1px 15px #55545486;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 40px #55545486;
+}
+
+.card img {
+    width: 300px;
+}
