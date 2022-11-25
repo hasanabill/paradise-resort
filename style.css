@@ -160,6 +160,7 @@ body::-webkit-scrollbar-thumb {
 .review {
     display: flex;
     justify-content: space-around;
+    margin-top: 100px;
 }
 
 .flax {
@@ -171,23 +172,23 @@ body::-webkit-scrollbar-thumb {
 }
 
 .flax h1 {
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(0, 0, 0);
 }
 
 .flax h3,
 .flax h2 {
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(214, 169, 115);
 }
 
 .flax p {
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
 }
 
 .flax li {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 /* cards */
@@ -239,6 +240,20 @@ body::-webkit-scrollbar-thumb {
 
 .card img {
     width: 300px;
+}
+
+.btn {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    background-color: #dd5c5c;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 30px;
 }
 
 
