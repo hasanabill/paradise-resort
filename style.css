@@ -156,7 +156,53 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+/* BOoking area */
 
+.hero {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.booking-area {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(71, 70, 70, 0.822);
+    align-items: center;
+}
+
+.booking-area div {
+    border: 1px solid rgba(37, 35, 35, 0.486);
+    height: 80px;
+    background-color: #fff;
+    padding: .8rem 1rem 1.5rem 1rem;
+}
+
+.booking-area p {
+    padding-bottom: 0.5rem;
+}
+
+.booking-area input {
+    padding-left: 0.5rem;
+}
+
+.book-now {
+    background: #dd5c5c !important;
+    cursor: pointer;
+    color: #fff;
+    transition: all .4s;
+}
+
+.book-now:hover {
+    background: #222 !important;
+}
+
+.book-now p {
+    padding-top: 1.15rem;
+}
+
+/* Review area */
 .review {
     display: flex;
     justify-content: space-around;
