@@ -4,19 +4,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-body::-webkit-scrollbar {
-    width: 8px;
-}
-
-body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
-}
-
 .navbar {
     height: 60px;
     margin: 0;
@@ -26,6 +13,7 @@ body::-webkit-scrollbar-thumb {
     padding-left: 100px;
     padding-right: 100px;
 }
+
 
 .navbar ul li {
     list-style: none;
@@ -48,6 +36,7 @@ body::-webkit-scrollbar-thumb {
     color: white;
     background-color: #dd5c5c;
 }
+
 
 
 /* Slideshow container */
@@ -157,91 +146,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.review {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
-}
-
-.flax {
-    width: 40%;
-}
-
-.flax img {
-    width: 95%;
-}
-
-.flax h1 {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-}
-
-.flax h3,
-.flax h2 {
-    font-size: 15px;
-    color: rgb(214, 169, 115);
-}
-
-.flax p {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-}
-
-.flax li {
-    font-size: 17px;
-}
-
-/* cards */
-
-
-.card-title {
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 40px;
-    color: #18191F;
-}
-
-.price {
-    font-size: 24px;
-    line-height: 100%;
-    color: rgba(0, 0, 0, 0.87);
-}
-
-.card-description {
-    font-weight: bold;
-    font-size: 14px;
-    color: #787885;
-}
-
-.card-container {
-    margin: 100px 150px;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px;
-    justify-items: center;
-}
-
-.card {
-    width: 329px;
-    border-radius: 3px;
-    padding-top: 17px;
-    padding-left: 24px;
-    transition: 1s;
-    box-shadow: 1px 1px 15px #55545486;
-}
-
-.card:hover {
-    transform: scale(1.02);
-    box-shadow: 1px 1px 50px #55545486;
-}
-
-.card img {
-    width: 300px;
-}
-
 .btn {
     text-decoration: none;
     display: flex;
@@ -256,29 +160,26 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 30px;
 }
 
-
-/* ---------- services ------------ */
-
-
-
-.services .s-flex {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    display: grid;
-    grid-template-columns: repeat(2, 700px);
-    grid-gap: 50px;
-    align-items: center;
-    justify-content: center;
+span {
+    color: #dd5c5c;
 }
 
-.services img {
-    width: 700px;
+.desc {
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
-.services p {
-    text-align: justify;
-    padding-right: 50px;
+.desc div {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+
+
+
 
 footer {
     background-color: #252733;

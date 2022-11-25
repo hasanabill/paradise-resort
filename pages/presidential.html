@@ -6,10 +6,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presidential Suite</title>
+    <link rel="stylesheet" href="../styles/presidential.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Presidential Suite</h1>
+    <section class="navbar">
+        <div>
+            <h2>Paradise Resort</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms & Suites</a></li>
+                <li><a href="facilities.html">Facilities & Services</a></li>
+                <li><a href="gallery.html">Gallary</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section>
+        <!-- Slideshow container -->
+        <div class="slideshow-container fade">
+
+            <!-- Full images with numbers and message Info -->
+            <div class="Containers">
+                <div class="MessageInfo">1 / 3</div>
+                <img src="../assets/rooms/presidential-suite.jpg" style="width:100%">
+            </div>
+
+            <div class="Containers">
+                <div class="MessageInfo">2 / 3</div>
+                <img src="../assets/rooms/presidential-slide-2.jpg" style="width:100%">
+            </div>
+
+            <div class="Containers">
+                <div class="MessageInfo">3 / 3</div>
+                <img src="../assets/rooms/presidential-slide-3.jpg" style="width:100%">
+            </div>
+
+            <!-- Back and forward buttons -->
+            <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The circles/dots -->
+        <div style="text-align:center">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <section class="desc">
+        <div class="title">
+            <h1>Presidential Suite - <span>BDT 89999/Night</span></h1>
+            <h1><a class="btn" href="">Book Now</a></h1>
+        </div>
+        <hr>
+
+        <h2>Description</h2>
+        <p>
+            The room size 1,300 sft with 01 living room 01 dining , 01 office room and 02 bed room with well
+            amenities and interior, bathtub in washrooms.
+        </p>
+
+        <hr>
+
+        <div>
+            <ul>
+                <li>32" LCD Television</li>
+                <li>Air Conditioning</li>
+                <li>Bathtub</li>
+                <li>Breakfast</li>
+            </ul>
+            <ul>
+                <li>Car Parking</li>
+                <li>Dressing Mirror</li>
+                <li>Electronic Safety Locker</li>
+                <li>Hair Dryer</li>
+            </ul>
+            <ul>
+                <li>High Speed Wi-Fi</li>
+                <li>Intercom</li>
+                <li>King size bed with luxury fittings</li>
+                <li>Mineral water 500ml @ 02 bottles</li>
+            </ul>
+        </div>
+
+    </section>
+
+
+
+    <!---------- footer section ----------->
+
+    <footer>
+        <div>
+            <h2>Paradise Resort</h2>
+            <p>+880123456789</p>
+            <p>paradiseresort@res.com</p>
+        </div>
+        <div class="last-container">
+            <h1>Subscribe to get updates</h1>
+            <div>
+                <input type="email" name="" placeholder="Your Email Here" id="">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script/script.js"></script>
+
 </body>
 
 </html>
