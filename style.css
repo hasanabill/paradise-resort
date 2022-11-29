@@ -18,6 +18,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navbar {
+    background-color: #252733;
     height: 60px;
     margin: 0;
     display: flex;
@@ -33,11 +34,16 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+.navbar h2 {
+    color: white;
+
+}
+
 .navbar ul li a {
     text-decoration: none;
     display: inline-block;
     padding: 10px 30px;
-    color: black;
+    color: white;
     border-radius: 4px;
 }
 
@@ -253,6 +259,12 @@ body::-webkit-scrollbar-thumb {
     color: rgba(0, 0, 0, 0.87);
 }
 
+.price span {
+    font-size: 24px;
+    line-height: 100%;
+    color: #dd5c5c;
+}
+
 .card-description {
     font-weight: bold;
     font-size: 14px;
@@ -357,4 +369,16 @@ footer button {
     height: 35px;
     width: 100px;
     margin-left: 10px;
+}
+
+.rights p {
+    padding: 30px;
+    margin: 0;
+    color: #fff;
+    background-color: #252733;
+    text-align: center;
+}
+
+.rights p span {
+    color: #dd5c5c;
 }
