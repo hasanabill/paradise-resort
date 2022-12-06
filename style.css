@@ -380,5 +380,6 @@ footer button {
 }
 
 .rights p span {
+    text-decoration: none;
     color: #dd5c5c;
 }

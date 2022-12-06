@@ -237,6 +237,7 @@ footer button {
     text-align: center;
 }
 
-.rights p span {
+.rights p span a {
+    text-decoration: none;
     color: #dd5c5c;
 }
